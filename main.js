@@ -108,6 +108,8 @@ const idInvalidCardCompanies = (nestArray) => {
 const cardStringToArray = (string) => {
     return string.split('').map(Number);
 }
+// Take invalid C.card and convert it 
+//to valid one , print to screen 
 
 const invalidCardToValidCard = (string) => {
     let temp = cardStringToArray(string);
